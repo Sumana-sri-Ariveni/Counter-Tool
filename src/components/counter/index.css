@@ -1,0 +1,48 @@
+body{
+    background-image:url("https://directlinedev.com/media/services/service/background/background_11.wide.jpeg")
+}
+
+
+.container{
+    background-color : #ffffff;
+    background-image: url('https://th.bing.com/th/id/OIP.EljZW9CtqmlQa60-qs_7pQAAAA?rs=1&pid=ImgDetMain');
+    background-image: cover;
+     display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top : 150px;
+    margin-left : 580px;
+    text-align : center;
+    height : 60vh;
+    width : 50vh;
+    border-radius: 25px;
+}
+
+.head{
+    font-size : 50px;
+    color : black;
+    font-weight : bold;
+}
+
+
+.para{
+    color:crimson;
+    font-size : 60px;
+}
+
+.btncontainer{
+    margin-top : 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+
+}
+
+.increase,.decrease,.reset{
+    background-color:darkseagreen;
+    color : black;
+    height : 40px;
+    width : 80px;
+    border-radius: 10px;
+}
